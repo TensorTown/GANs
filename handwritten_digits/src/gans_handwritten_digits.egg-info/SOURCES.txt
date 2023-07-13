@@ -1,8 +1,0 @@
-pyproject.toml
-src/gans_handwritten_digits.egg-info/PKG-INFO
-src/gans_handwritten_digits.egg-info/SOURCES.txt
-src/gans_handwritten_digits.egg-info/dependency_links.txt
-src/gans_handwritten_digits.egg-info/requires.txt
-src/gans_handwritten_digits.egg-info/top_level.txt
-src/handwritten_digits/__init__.py
-src/handwritten_digits/model.py
