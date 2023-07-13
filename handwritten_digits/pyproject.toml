@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gans_handwritten_digits"
+version = "0.1.0"
+authors = [
+    {name = "Tomás Muñoz", email = "tomas.mpoupin@gmail.com"},
+    {name = "Cristobal Barrientos", email = "cbarrientoslow@gmail.com"},
+]
+description = "GANs models exploration."
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["GANS", "Handwritten Digits", "Exploration", "Machine Learning", "Deep Learning", "Generative Models"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    # Api
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "numpy",
+    "matplotlib",
+    "scikit-learn",
+    "pandas",
+    "pytest",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
+asyncio_mode="auto"

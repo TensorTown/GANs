@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gans-handwritten-digits
+Version: 0.1.0
+Summary: GANs models exploration.
+Author-email: Tomás Muñoz <tomas.mpoupin@gmail.com>, Cristobal Barrientos <cbarrientoslow@gmail.com>
+Keywords: GANS,Handwritten Digits,Exploration,Machine Learning,Deep Learning,Generative Models
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
